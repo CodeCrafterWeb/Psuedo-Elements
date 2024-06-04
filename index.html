@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PSUEDO ELEMENTS</title>
+
+   <style>
+        
+       p::first-letter{
+              font-size: 60px; 
+              color:black;        
+       }
+
+       .Allu::first-line{
+           font-family:Comic Sans MS ; 
+           background-color: azure;
+              font-size: 17pt;         
+              font-style:italic; 
+              font-weight: bold; 
+       }
+
+       p::selection{
+           background-color:rgb(1, 17, 4);
+           color:rgb(233, 233, 234);
+           }
+       
+     .arjun::before{
+       content: 'ICONIC  STAR';
+     }
+
+
+     .arjun::after{
+       content: 'ICONIC  STAR';
+     }
+
+
+      .box{
+           border: 1px solid rgb(242, 162, 3);
+           border-radius: 25px;
+           padding: 0% 2% 1% 1%;
+           background: linear-gradient(to right, #00ffff, #ff02ff);
+       }
+   </style>
+</head>
+<body>
+  <center>  <h1>The ::first-letter Pseudo-Element</h1>  <div class="box"> 
+   <p>Allu Arjun is an acclaimed Indian actor known primarily for his work in Telugu cinema. Born on April 8, 1983, in Chennai, Tamil Nadu, he hails from a prominent film family, with his father Allu Aravind being a noted film producer and his uncle Chiranjeevi being one of the biggest stars in Telugu cinema.</p> </div><br>
+
+   <h1>The ::first-line Pseudo-Element</h1>
+
+<div class="box"> 
+   <p class="Allu"> Allu arjun is known for his unique style, charisma, and exceptional dancing skills, earning him the nickname "Stylish Star."   His performances often combine intense action sequences with energetic dance numbers, making him a favorite among fans. He has also been praised for his versatility in playing a wide range of characters from romantic heroes to intense action roles.</p></div><br>
+
+   <h1>The ::after & before Pseudo-Element</h1>
+
+<div class="box"> 
+   <P class="arjun"> over the years, Allu Arjun has received numerous awards, including several Filmfare Awards South and Nandi Awards, highlighting his contributions to the film industry. His popularity extends beyond Andhra Pradesh and Telangana, with a significant fan base in Kerala and other parts of India. </P> </div> </center>
+
+
+</body>
+</html>
+
+
+
+
